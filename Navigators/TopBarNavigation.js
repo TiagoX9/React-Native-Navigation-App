@@ -64,7 +64,8 @@ function MyTabs() {
 }
 export default function TopBarNavigation() {
   return (
-    <NavigationContainer>     
+    // Remove in case of stack navigators !IMPORTANT
+    <NavigationContainer>    
         <MyTabs />
     </NavigationContainer>
   );

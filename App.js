@@ -4,11 +4,12 @@ import TopBarNavigation from './Navigators/TopBarNavigation';
 import BottomBarNavigation from './Navigators/BottomTabNavigation';
 import StackNavigator from './Navigators/StackNavigation';
 import DrawerNavigation from './Navigators/DrawerNavigation';
+import RouteParamsNavigation from './Navigators/RouteParamsNavigator';
 
 export default function App() {
     return (
         <SafeAreaProvider>
-            <StackNavigator />
+            <RouteParamsNavigation />
         </SafeAreaProvider>
     );
 }
