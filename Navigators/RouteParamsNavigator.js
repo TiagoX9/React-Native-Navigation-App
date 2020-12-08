@@ -63,7 +63,7 @@ function Home({ navigation }) {
     >
       {data.map(x => {
           return(
-            <CustomCard item={x} navigation={navigation} />
+            <CustomCard key={Math.random()} item={x} navigation={navigation} />
           )
       })}
     </View>

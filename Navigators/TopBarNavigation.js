@@ -33,8 +33,6 @@ function Home() {
 const Tab = createMaterialTopTabNavigator();
 
 function MyTabs() {
-  const insets = useSafeArea();
-
   return (
     <Tab.Navigator
       initialRouteName="Home"

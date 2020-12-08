@@ -9,7 +9,7 @@ import RouteParamsNavigation from './Navigators/RouteParamsNavigator';
 export default function App() {
     return (
         <SafeAreaProvider>
-            <RouteParamsNavigation />
+            <TopBarNavigation />
         </SafeAreaProvider>
     );
 }
